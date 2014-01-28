@@ -1,0 +1,13 @@
+cd /fuse
+$ mkdir /mount   # make an empty directory
+$ python myfuse.py -f mount/
+# now open new cmd
+$ cd cd mount  
+$ ls
+$ mkdir.
+$ rmdir
+$ touch
+$ chmod
+$ stat
+$ cd ..  # when you are done
+$ fusermount -u mount  # un-mount the file system.
